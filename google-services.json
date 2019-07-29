@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1041111699569",
+    "firebase_url": "https://magamooz-push.firebaseio.com",
+    "project_id": "magamooz-push",
+    "storage_bucket": "magamooz-push.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041111699569:android:2fd13a73b7db83ec",
+        "android_client_info": {
+          "package_name": "com.magfalms.magfaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041111699569-0p6f7r7mn57trurdqrm1du4dk8kro9aj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3Ow7G0_ZL-crXvvWDdvoacrihq6ReYi8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041111699569-0p6f7r7mn57trurdqrm1du4dk8kro9aj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
