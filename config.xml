@@ -140,7 +140,7 @@
         <splash height="1125" src="resources/ios/splash/Default-Landscape-2436h.png" width="2436" />
     </platform>
     <plugin name="com-darryncampbell-cordova-plugin-intent" spec="1.1.7" />
-    <plugin name="cordova-android-support-gradle-release" spec="3.0.0">
+    <plugin name="cordova-android-support-gradle-release" spec="3.0.1">
         <variable name="ANDROID_SUPPORT_VERSION" value="27.1.0" />
     </plugin>
     <plugin name="cordova-clipboard" spec="1.2.1" />
@@ -166,7 +166,7 @@
     <plugin name="cordova-plugin-zip" spec="3.1.0" />
     <plugin name="cordova-sqlite-evcore-extbuild-free" spec="0.10.1" />
     <plugin name="nl.kingsquare.cordova.background-audio" spec="1.0.1" />
-    <plugin name="phonegap-plugin-push" spec="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3">
+    <plugin name="phonegap-plugin-push" spec="2.2.3">
         <variable name="ANDROID_SUPPORT_V13_VERSION" value="27.+" />
         <variable name="FCM_VERSION" value="17.5.+" />
     </plugin>
