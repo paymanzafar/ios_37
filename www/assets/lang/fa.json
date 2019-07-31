@@ -1464,7 +1464,7 @@
     "core.settings.appready": "آماده استفاده",
     "core.settings.cannotsyncoffline": "امکان همسان‌سازی در حالت آفلاین وجود ندارد. لطفا به اینترنت متصل شوید.",
     "core.settings.cannotsyncwithoutwifi": "امکان همسان‌سازی وجود ندارد. تنظیمات فعلی امکان همسان‌سازی از طریق اینترنت سیم کارت را نمیدهد. لطفا به شبکه وای‌فای متصل شوید.",
-    "core.settings.compilationtime": "زمان کامپایل شدن نرم‌افزار",
+    "core.settings.compilationinfo": "زمان کامپایل شدن نرم‌افزار",
     "core.settings.cordovadevicemodel": "مدل دستگاه کُردوا",
     "core.settings.cordovadeviceosversion": "ورژن کردوا سیستم عامل",
     "core.settings.cordovadeviceplatform": "پلتفرم دستگاه",
