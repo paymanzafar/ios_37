@@ -3,7 +3,7 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "com.magfalms.magfaapp"
-        versionCode = "37100"
+        versionCode = "3700"
         android-versionCode="3700"
         version   = "3.7.0">
     <name>Moodle</name>
