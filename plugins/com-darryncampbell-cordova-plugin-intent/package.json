@@ -1,5 +1,5 @@
 {
-  "_from": "com-darryncampbell-cordova-plugin-intent@^1.1.7",
+  "_from": "com-darryncampbell-cordova-plugin-intent@^1.1.8",
   "_id": "com-darryncampbell-cordova-plugin-intent@1.1.8",
   "_inBundle": false,
   "_integrity": "sha512-gEEBCjiycuoK28DofmaNkxYtOre6czLnNvMYFssH2ycHeY5ickm0SBfVTB+GPtXCeUkxAmxANnJn2p4SX8QcWw==",
@@ -8,12 +8,12 @@
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "com-darryncampbell-cordova-plugin-intent@^1.1.7",
+    "raw": "com-darryncampbell-cordova-plugin-intent@^1.1.8",
     "name": "com-darryncampbell-cordova-plugin-intent",
     "escapedName": "com-darryncampbell-cordova-plugin-intent",
-    "rawSpec": "^1.1.7",
+    "rawSpec": "^1.1.8",
     "saveSpec": null,
-    "fetchSpec": "^1.1.7"
+    "fetchSpec": "^1.1.8"
   },
   "_requiredBy": [
     "#USER",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/com-darryncampbell-cordova-plugin-intent/-/com-darryncampbell-cordova-plugin-intent-1.1.8.tgz",
   "_shasum": "f965951b38d88c2da5c512ed89cb30871e1f878f",
-  "_spec": "com-darryncampbell-cordova-plugin-intent@^1.1.7",
+  "_spec": "com-darryncampbell-cordova-plugin-intent@^1.1.8",
   "_where": "D:\\Final\\app_37_ios",
   "author": {
     "name": "Darryn Campbell"

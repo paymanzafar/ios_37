@@ -1500,6 +1500,7 @@
     "core.settings.navigatoruseragent": "نرم‌افزار مرورگر",
     "core.settings.networkstatus": "وضعیت اتصال به اینترنت",
     "core.settings.privacypolicy": "خط مشی حفظ حریم خصوصی",
+	"core.settings.pushid": "آی دی ارسال اعلانات",
     "core.settings.processorsettings": "تنظیمات پردازشگر",
     "core.settings.reportinbackground": "گزارش خطاها به‌صورت خودکار",
     "core.settings.settings": "تنظیمات",

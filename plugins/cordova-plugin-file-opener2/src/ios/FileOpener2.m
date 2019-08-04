@@ -31,28 +31,37 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 - (void) open: (CDVInvokedUrlCommand*)command {
 
-    NSString *path = [[command.arguments objectAtIndex:0] stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-	NSString *contentType = nil;
+    NSString *path = [command.arguments objectAtIndex:0];
+	NSString *contentType = [command.arguments objectAtIndex:1];
 	BOOL showPreview = YES;
 
-	if([command.arguments count] == 2) { // Includes contentType
-		contentType = [command.arguments objectAtIndex:1];
-	}
-
-	if ([command.arguments count] == 3) {
+	if ([command.arguments count] >= 3) {
 		showPreview = [[command.arguments objectAtIndex:2] boolValue];
 	}
 
 	CDVViewController* cont = (CDVViewController*)[super viewController];
 	self.cdvViewController = cont;
+	NSString *uti = nil;
 
-	NSArray *dotParts = [path componentsSeparatedByString:@"."];
-	NSString *fileExt = [dotParts lastObject];
+	if([contentType length] == 0){
+		NSArray *dotParts = [path componentsSeparatedByString:@"."];
+		NSString *fileExt = [dotParts lastObject];
 
-	NSString *uti = (__bridge NSString *)UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, (__bridge CFStringRef)fileExt, NULL);
+		uti = (__bridge NSString *)UTTypeCreatePreferredIdentifierForTag(kUTTagClassFilenameExtension, (__bridge CFStringRef)fileExt, NULL);
+	} else {
+		uti = (__bridge NSString *)UTTypeCreatePreferredIdentifierForTag(kUTTagClassMIMEType, (__bridge CFStringRef)contentType, NULL);
+	}
 
 	dispatch_async(dispatch_get_main_queue(), ^{
-		NSURL *fileURL = [NSURL URLWithString:path];
+		NSURL *fileURL = NULL;
+		NSString *decodedPath = [path stringByRemovingPercentEncoding];
+		if ([path isEqualToString:decodedPath]) {
+				NSLog(@"Path parameter not encoded. Building file URL encoding it...");
+				fileURL = [NSURL fileURLWithPath:[path stringByReplacingOccurrencesOfString:@"file://" withString:@""]];;
+		} else {
+				NSLog(@"Path parameter already encoded. Building file URL without encoding it...");
+				fileURL = [NSURL URLWithString:path];
+		}
 
 		localFile = fileURL.path;
 
@@ -103,6 +112,14 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 @implementation FileOpener2 (UIDocumentInteractionControllerDelegate)
 	- (UIViewController *)documentInteractionControllerViewControllerForPreview:(UIDocumentInteractionController *)controller {
-		return self.cdvViewController;
+		UIViewController *presentingViewController = self.viewController;
+		if (presentingViewController.view.window != [UIApplication sharedApplication].keyWindow){
+			presentingViewController = [UIApplication sharedApplication].keyWindow.rootViewController;
+		}
+
+		while (presentingViewController.presentedViewController != nil && ![presentingViewController.presentedViewController isBeingDismissed]){
+			presentingViewController = presentingViewController.presentedViewController;
+		}
+		return presentingViewController;
 	}
 @end
