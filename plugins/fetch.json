@@ -1,22 +1,4 @@
 {
-  "com-darryncampbell-cordova-plugin-intent": {
-    "source": {
-      "type": "registry",
-      "id": "com-darryncampbell-cordova-plugin-intent@1.1.7"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
-  "cordova-android-support-gradle-release": {
-    "source": {
-      "type": "registry",
-      "id": "cordova-android-support-gradle-release@3.0.0"
-    },
-    "is_top_level": true,
-    "variables": {
-      "ANDROID_SUPPORT_VERSION": "27.1.0"
-    }
-  },
   "cordova-clipboard": {
     "source": {
       "type": "registry",
@@ -110,14 +92,6 @@
     "is_top_level": true,
     "variables": {}
   },
-  "cordova-plugin-local-notification": {
-    "source": {
-      "type": "registry",
-      "id": "git+https://github.com/moodlemobile/cordova-plugin-local-notification.git#moodle"
-    },
-    "is_top_level": true,
-    "variables": {}
-  },
   "cordova-plugin-media-capture": {
     "source": {
       "type": "registry",
@@ -177,7 +151,7 @@
   "cordova-sqlite-storage": {
     "source": {
       "type": "registry",
-      "id": "cordova-sqlite-storage@2.6.0"
+      "id": "cordova-sqlite-storage@3.2.0"
     },
     "is_top_level": true,
     "variables": {}
@@ -190,23 +164,30 @@
     "is_top_level": true,
     "variables": {}
   },
-  "phonegap-plugin-push": {
-    "source": {
-      "type": "registry",
-      "id": "git+https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3"
-    },
-    "is_top_level": true,
-    "variables": {
-      "ANDROID_SUPPORT_V13_VERSION": "27.+",
-      "FCM_VERSION": "17.0.+"
-    }
-  },
   "cordova-sqlite-evcore-extbuild-free": {
     "source": {
       "type": "registry",
-      "id": "cordova-sqlite-evcore-extbuild-free@0.10.1"
+      "id": "cordova-sqlite-evcore-extbuild-free"
     },
     "is_top_level": true,
     "variables": {}
+  },
+  "com-darryncampbell-cordova-plugin-intent": {
+    "source": {
+      "type": "registry",
+      "id": "com-darryncampbell-cordova-plugin-intent@^1.1.7"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-android-support-gradle-release": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-android-support-gradle-release@3.0.0"
+    },
+    "is_top_level": true,
+    "variables": {
+      "ANDROID_SUPPORT_VERSION": "27.1.0"
+    }
   }
 }

@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "cordova-plugin-media-capture@3.0.2",
-      "D:\\Final\\app_37_ios"
-    ]
-  ],
   "_from": "cordova-plugin-media-capture@3.0.2",
   "_id": "cordova-plugin-media-capture@3.0.2",
   "_inBundle": false,
@@ -22,10 +16,12 @@
     "fetchSpec": "3.0.2"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-media-capture/-/cordova-plugin-media-capture-3.0.2.tgz",
-  "_spec": "3.0.2",
+  "_shasum": "da657c2faadcfc7fdc2868e59d215ed83e700c3a",
+  "_spec": "cordova-plugin-media-capture@3.0.2",
   "_where": "D:\\Final\\app_37_ios",
   "author": {
     "name": "Apache Software Foundation"
@@ -33,6 +29,7 @@
   "bugs": {
     "url": "https://issues.apache.org/jira/browse/CB"
   },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-media-capture",
     "platforms": [
@@ -42,6 +39,7 @@
       "browser"
     ]
   },
+  "deprecated": false,
   "description": "Cordova Media Capture Plugin",
   "devDependencies": {
     "eslint": "^4.0.0",

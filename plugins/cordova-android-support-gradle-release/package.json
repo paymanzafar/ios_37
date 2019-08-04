@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "cordova-android-support-gradle-release@3.0.0",
-      "D:\\Final\\app_37_ios"
-    ]
-  ],
   "_from": "cordova-android-support-gradle-release@3.0.0",
   "_id": "cordova-android-support-gradle-release@3.0.0",
   "_inBundle": false,
@@ -22,18 +16,22 @@
     "fetchSpec": "3.0.0"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/cordova-android-support-gradle-release/-/cordova-android-support-gradle-release-3.0.0.tgz",
-  "_spec": "3.0.0",
+  "_shasum": "c5a0180e1fcd7d58d41f84e864c0fac4cd4ed3a0",
+  "_spec": "cordova-android-support-gradle-release@3.0.0",
   "_where": "D:\\Final\\app_37_ios",
   "author": {
     "name": "Dave Alden"
   },
+  "bundleDependencies": false,
   "dependencies": {
     "q": "^1.4.1",
     "semver": "5.6.0"
   },
+  "deprecated": false,
   "description": "Cordova/Phonegap plugin to align various versions of the Android Support libraries specified by other plugins to a specific version",
   "devDependencies": {},
   "license": "MIT",

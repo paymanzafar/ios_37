@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "cordova-plugin-file-opener2@2.0.19",
-      "D:\\Final\\app_37_ios"
-    ]
-  ],
   "_from": "cordova-plugin-file-opener2@2.0.19",
   "_id": "cordova-plugin-file-opener2@2.0.19",
   "_inBundle": false,
@@ -22,10 +16,12 @@
     "fetchSpec": "2.0.19"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-file-opener2/-/cordova-plugin-file-opener2-2.0.19.tgz",
-  "_spec": "2.0.19",
+  "_shasum": "ca3ae1225395b77ab1fe5b20accbfecc688e2493",
+  "_spec": "cordova-plugin-file-opener2@2.0.19",
   "_where": "D:\\Final\\app_37_ios",
   "author": {
     "name": "pwlin05@gmail.com"
@@ -33,6 +29,7 @@
   "bugs": {
     "url": "https://github.com/pwlin/cordova-plugin-file-opener2/issues"
   },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-file-opener2",
     "platforms": [
@@ -42,6 +39,7 @@
       "windows"
     ]
   },
+  "deprecated": false,
   "description": "A File Opener Plugin for Cordova. (The Original Version)",
   "engines": [
     {

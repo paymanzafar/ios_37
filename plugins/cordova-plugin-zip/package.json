@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "cordova-plugin-zip@3.1.0",
-      "D:\\Final\\app_37_ios"
-    ]
-  ],
   "_from": "cordova-plugin-zip@3.1.0",
   "_id": "cordova-plugin-zip@3.1.0",
   "_inBundle": false,
@@ -22,15 +16,18 @@
     "fetchSpec": "3.1.0"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-zip/-/cordova-plugin-zip-3.1.0.tgz",
-  "_spec": "3.1.0",
+  "_shasum": "176c8248ea20d39f1cf959ef5e6156acca96b217",
+  "_spec": "cordova-plugin-zip@3.1.0",
   "_where": "D:\\Final\\app_37_ios",
   "author": "",
   "bugs": {
     "url": "https://github.com/MobileChromeApps/zip/issues"
   },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-unzip",
     "platforms": [
@@ -38,6 +35,7 @@
       "ios"
     ]
   },
+  "deprecated": false,
   "description": "Unzips zip files",
   "engines": [
     {

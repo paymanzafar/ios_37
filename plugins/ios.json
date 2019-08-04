@@ -7,12 +7,6 @@
     "files": {}
   },
   "installed_plugins": {
-    "com-darryncampbell-cordova-plugin-intent": {
-      "PACKAGE_NAME": "com.magfalms.magfaapp"
-    },
-    "cordova-android-support-gradle-release": {
-      "PACKAGE_NAME": "com.magfalms.magfaapp"
-    },
     "cordova-clipboard": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
@@ -47,9 +41,6 @@
     "cordova-plugin-ionic-keyboard": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
-    "cordova-plugin-local-notification": {
-      "PACKAGE_NAME": "com.magfalms.magfaapp"
-    },
     "cordova-plugin-media-capture": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
@@ -71,10 +62,19 @@
     "cordova-plugin-zip": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
-    "phonegap-plugin-push": {
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "nl.kingsquare.cordova.background-audio": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
     "cordova-sqlite-evcore-extbuild-free": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "com-darryncampbell-cordova-plugin-intent": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
+    "cordova-android-support-gradle-release": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     }
   },

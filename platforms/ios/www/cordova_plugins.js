@@ -1,14 +1,6 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
   {
-    "id": "com-darryncampbell-cordova-plugin-intent.IntentShim",
-    "file": "plugins/com-darryncampbell-cordova-plugin-intent/www/IntentShim.js",
-    "pluginId": "com-darryncampbell-cordova-plugin-intent",
-    "clobbers": [
-      "intentShim"
-    ]
-  },
-  {
     "id": "cordova-clipboard.Clipboard",
     "file": "plugins/cordova-clipboard/www/clipboard.js",
     "pluginId": "cordova-clipboard",
@@ -303,14 +295,6 @@ module.exports = [
     ]
   },
   {
-    "id": "cordova-plugin-local-notification.LocalNotification",
-    "file": "plugins/cordova-plugin-local-notification/www/local-notification.js",
-    "pluginId": "cordova-plugin-local-notification",
-    "clobbers": [
-      "cordova.plugins.notification.local"
-    ]
-  },
-  {
     "id": "cordova-plugin-media-capture.CaptureAudioOptions",
     "file": "plugins/cordova-plugin-media-capture/www/CaptureAudioOptions.js",
     "pluginId": "cordova-plugin-media-capture",
@@ -422,11 +406,11 @@ module.exports = [
     ]
   },
   {
-    "id": "phonegap-plugin-push.PushNotification",
-    "file": "plugins/phonegap-plugin-push/www/push.js",
-    "pluginId": "phonegap-plugin-push",
+    "id": "cordova-sqlite-storage.SQLitePlugin",
+    "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+    "pluginId": "cordova-sqlite-storage",
     "clobbers": [
-      "PushNotification"
+      "SQLitePlugin"
     ]
   },
   {
@@ -436,13 +420,19 @@ module.exports = [
     "clobbers": [
       "SQLitePlugin"
     ]
+  },
+  {
+    "id": "com-darryncampbell-cordova-plugin-intent.IntentShim",
+    "file": "plugins/com-darryncampbell-cordova-plugin-intent/www/IntentShim.js",
+    "pluginId": "com-darryncampbell-cordova-plugin-intent",
+    "clobbers": [
+      "intentShim"
+    ]
   }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-  "com-darryncampbell-cordova-plugin-intent": "1.1.7",
-  "cordova-android-support-gradle-release": "3.0.0",
   "cordova-clipboard": "1.2.1",
   "cordova-plugin-badge": "0.8.8",
   "cordova-plugin-camera": "4.0.3",
@@ -454,7 +444,6 @@ module.exports.metadata =
   "cordova-plugin-globalization": "1.11.0",
   "cordova-plugin-inappbrowser": "3.0.0",
   "cordova-plugin-ionic-keyboard": "2.1.3",
-  "cordova-plugin-local-notification": "0.9.0-beta.3",
   "cordova-plugin-media-capture": "3.0.2",
   "cordova-plugin-network-information": "2.0.1",
   "cordova-plugin-screen-orientation": "3.0.1",
@@ -462,8 +451,11 @@ module.exports.metadata =
   "cordova-plugin-statusbar": "2.4.2",
   "cordova-plugin-whitelist": "1.3.3",
   "cordova-plugin-zip": "3.1.0",
-  "phonegap-plugin-push": "2.2.3",
-  "cordova-sqlite-evcore-extbuild-free": "0.10.1"
+  "cordova-sqlite-storage": "3.2.0",
+  "nl.kingsquare.cordova.background-audio": "1.0.1",
+  "cordova-sqlite-evcore-extbuild-free": "0.10.1",
+  "com-darryncampbell-cordova-plugin-intent": "1.1.8",
+  "cordova-android-support-gradle-release": "3.0.0"
 };
 // BOTTOM OF METADATA
 });

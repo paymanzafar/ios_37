@@ -1,10 +1,4 @@
 {
-  "_args": [
-    [
-      "cordova-plugin-customurlscheme@4.3.0",
-      "D:\\Final\\app_37_ios"
-    ]
-  ],
   "_from": "cordova-plugin-customurlscheme@4.3.0",
   "_id": "cordova-plugin-customurlscheme@4.3.0",
   "_inBundle": false,
@@ -22,10 +16,12 @@
     "fetchSpec": "4.3.0"
   },
   "_requiredBy": [
+    "#USER",
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/cordova-plugin-customurlscheme/-/cordova-plugin-customurlscheme-4.3.0.tgz",
-  "_spec": "4.3.0",
+  "_shasum": "02f968778b4093990eb0407f3fa1b1458d705f94",
+  "_spec": "cordova-plugin-customurlscheme@4.3.0",
   "_where": "D:\\Final\\app_37_ios",
   "author": {
     "name": "Eddy Verbruggen",
@@ -35,6 +31,7 @@
   "bugs": {
     "url": "https://github.com/EddyVerbruggen/Custom-URL-scheme/issues"
   },
+  "bundleDependencies": false,
   "cordova": {
     "id": "cordova-plugin-customurlscheme",
     "platforms": [
@@ -44,6 +41,7 @@
       "windows"
     ]
   },
+  "deprecated": false,
   "description": "Launch your app by using this URL:  mycoolapp://, you can add a path and even pass params like this: mycoolerapp://somepath?foo=bar",
   "engines": [
     {
