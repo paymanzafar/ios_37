@@ -25,7 +25,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    <preference name="phonegap-version" value="cli-9.0.0" />
+    <preference name="phonegap-version" value="cli-8.1.1" />
 	<preference name="pgb-builder-version" value="2" />
     <preference name="LoadUrlTimeoutValue" value="60000" />
     <preference name="orientation" value="default" />
@@ -160,9 +160,9 @@
         <variable name="FCM_VERSION" value="17.5.0" />
     </gap:plugin>
 	<engines>
-		<engine name="cordova" version=">=7.1.0"/>
-		<engine name="cordova-android" version=">=7.1.0"/>
-		<engine name="cordova-ios" version=">=4.5.0"/>
+		<engine name="cordova" version="7.1.0"/>
+		<engine name="cordova-android" version="7.1.0"/>
+		<engine name="cordova-ios" version="4.5.0"/>
   </engines>
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:launchMode='singleTop']">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" />
