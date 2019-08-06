@@ -422,6 +422,14 @@ module.exports = [
     ]
   },
   {
+    "id": "cordova-sqlite-evcore-extbuild-free.SQLitePlugin",
+    "file": "plugins/cordova-sqlite-evcore-extbuild-free/www/SQLitePlugin.js",
+    "pluginId": "cordova-sqlite-evcore-extbuild-free",
+    "clobbers": [
+      "SQLitePlugin"
+    ]
+  },
+  {
     "id": "cordova-sqlite-storage.SQLitePlugin",
     "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
     "pluginId": "cordova-sqlite-storage",
@@ -430,19 +438,17 @@ module.exports = [
     ]
   },
   {
+    "id": "es6-promise-plugin.Promise",
+    "file": "plugins/es6-promise-plugin/www/promise.js",
+    "pluginId": "es6-promise-plugin",
+    "runs": true
+  },
+  {
     "id": "phonegap-plugin-push.PushNotification",
     "file": "plugins/phonegap-plugin-push/www/push.js",
     "pluginId": "phonegap-plugin-push",
     "clobbers": [
       "PushNotification"
-    ]
-  },
-  {
-    "id": "cordova-sqlite-evcore-extbuild-free.SQLitePlugin",
-    "file": "plugins/cordova-sqlite-evcore-extbuild-free/www/SQLitePlugin.js",
-    "pluginId": "cordova-sqlite-evcore-extbuild-free",
-    "clobbers": [
-      "SQLitePlugin"
     ]
   }
 ];
@@ -470,10 +476,11 @@ module.exports.metadata =
   "cordova-plugin-statusbar": "2.4.3",
   "cordova-plugin-whitelist": "1.3.4",
   "cordova-plugin-zip": "3.1.0",
+  "cordova-sqlite-evcore-extbuild-free": "0.10.1",
   "cordova-sqlite-storage": "3.2.1",
+  "es6-promise-plugin": "4.2.2",
   "nl.kingsquare.cordova.background-audio": "1.0.1",
-  "phonegap-plugin-push": "2.2.3",
-  "cordova-sqlite-evcore-extbuild-free": "0.10.1"
+  "phonegap-plugin-push": "2.2.3"
 };
 // BOTTOM OF METADATA
 });

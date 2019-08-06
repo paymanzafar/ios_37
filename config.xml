@@ -25,10 +25,7 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-	<preference name="android-build-tool" value="gradle" />
-	
-	<engine name="android" version="7.1.0"/>
-	<engine name="ios" version="4.5.0"/>
+    <preference name="android-build-tool" value="gradle" />
     <preference name="phonegap-version" value="cli-7.1.0" />
     <preference name="LoadUrlTimeoutValue" value="60000" />
     <preference name="orientation" value="default" />
@@ -162,7 +159,6 @@
         <variable name="ANDROID_SUPPORT_V13_VERSION" value="27.+" />
         <variable name="FCM_VERSION" value="17.5.+" />
     </gap:plugin>
-	
     <edit-config file="AndroidManifest.xml" mode="merge" target="/manifest/application/activity[@android:launchMode='singleTop']">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true" />
     </edit-config>
@@ -568,6 +564,5 @@
         </array>
     </config-file>
     <content src="index.html" />
-    <engine name="android" spec="^7.1.4" />
-    <engine name="ios" spec="^4.5.5" />
+    <engine name="ios" spec="^4.5.0" />
 </widget>

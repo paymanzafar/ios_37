@@ -71,6 +71,9 @@
     "cordova-plugin-zip": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
+    "cordova-sqlite-evcore-extbuild-free": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    },
     "cordova-sqlite-storage": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
     },
@@ -79,10 +82,11 @@
     },
     "phonegap-plugin-push": {
       "PACKAGE_NAME": "com.magfalms.magfaapp"
-    },
-    "cordova-sqlite-evcore-extbuild-free": {
-      "PACKAGE_NAME": "com.magfalms.magfaapp"
     }
   },
-  "dependent_plugins": {}
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.magfalms.magfaapp"
+    }
+  }
 }
