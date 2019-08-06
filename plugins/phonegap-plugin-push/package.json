@@ -7,8 +7,8 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "git+https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3",
-    "rawSpec": "git+https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3",
+    "raw": "https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3",
+    "rawSpec": "https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3",
     "saveSpec": "git+https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3",
     "fetchSpec": "https://github.com/moodlemobile/phonegap-plugin-push.git",
     "gitCommittish": "moodle-v3"
@@ -18,7 +18,7 @@
     "/"
   ],
   "_resolved": "git+https://github.com/moodlemobile/phonegap-plugin-push.git#cf8101e86adb774ae1d7ad6b65fb9d8802673f4b",
-  "_spec": "git+https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3",
+  "_spec": "https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3",
   "_where": "D:\\Final\\app_37_ios",
   "author": {
     "name": "Adobe PhoneGap Team"
