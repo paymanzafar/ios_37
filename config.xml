@@ -27,7 +27,7 @@
     <allow-intent href="geo:*" />
 	<engine name="ios" spec="4.5.0" />
     <preference name="android-build-tool" value="gradle" />
-    <preference name="phonegap-version" value="cli-7.1.0" />
+    <preference name="phonegap-version" value="cli-8.1.1" />
     <preference name="LoadUrlTimeoutValue" value="60000" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
@@ -562,7 +562,6 @@
         </array>
     </config-file>
     <content src="index.html" />
-    <engine name="ios" spec="^4.5.0" />
+    <engine name="ios" spec="4.5.0" />
     <engine name="android" spec="7.1.0" />
-    <plugin name="phonegap-plugin-push" spec="https://github.com/moodlemobile/phonegap-plugin-push.git#moodle-v3" />
 </widget>
