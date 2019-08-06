@@ -30,7 +30,6 @@
 	<engine name="android" version="7.1.0"/>
 	<engine name="ios" version="4.5.0"/>
     <preference name="phonegap-version" value="cli-7.1.0" />
-	<preference name="pgb-builder-version" value="2" />
     <preference name="LoadUrlTimeoutValue" value="60000" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
